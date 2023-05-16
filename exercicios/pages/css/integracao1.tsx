@@ -2,7 +2,7 @@ import styles from './integracao1.module.css'
 
 export default function integracao() {
     return (
-        <>
+        <div id={styles.integracao}>
             <div className={styles.vermelha}>
                 Texto #01
             </div>
@@ -12,6 +12,6 @@ export default function integracao() {
             <div className={styles.branca}>
                 Texto #03
             </div>
-        </>
+        </div>
         )
 }

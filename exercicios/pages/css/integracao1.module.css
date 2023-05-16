@@ -10,3 +10,11 @@
     background-color: darkslategrey;
     color: white;
 }
+
+#integracao {
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
